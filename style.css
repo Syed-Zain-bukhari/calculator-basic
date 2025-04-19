@@ -34,7 +34,7 @@ body {
 
 .buttons {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr); 
 }
 
 button {
@@ -65,4 +65,8 @@ button:hover {
 
 .equals:hover {
   background: #00b44c;
+}
+.set{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
 }
